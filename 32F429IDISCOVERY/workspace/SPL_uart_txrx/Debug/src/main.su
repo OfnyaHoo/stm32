@@ -1,0 +1,8 @@
+core_cm4.h:1550:22:NVIC_SetPriority	16	static
+core_cm4.h:1677:26:SysTick_Config	16	static
+main.c:52:5:main	24	static
+main.c:70:13:GPIOG_init	16	static
+main.c:84:13:USART1_init	32	static
+main.c:120:13:USART_Puts	16	static
+main.c:128:13:Delay	16	static
+main.c:140:6:TimingDelay_Decrement	4	static

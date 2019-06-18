@@ -1,0 +1,15 @@
+21:58:34 **** Incremental Build of configuration Debug for project SPL_gpio_switch ****
+make -j4 all 
+"C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java" -jar "C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar" sizeinfo list SPL_gpio_switch.elf
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+   1696	      8	   1060	   2764	    acc	SPL_gpio_switch.elf
+Print size information done
+Generate listing file
+Output sent to: SPL_gpio_switch.list
+Generate listing file done
+Generate build reports done
+
+21:58:35 Build Finished (took 479ms)
+

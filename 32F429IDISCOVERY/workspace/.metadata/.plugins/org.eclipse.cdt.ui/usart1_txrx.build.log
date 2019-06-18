@@ -1,0 +1,15 @@
+12:18:43 **** Incremental Build of configuration Debug for project usart1_txrx ****
+make -j4 all 
+"C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java" -jar "C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar" sizeinfo list usart1_txrx.elf
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  15240	    484	   1652	  17376	   43e0	usart1_txrx.elf
+Print size information done
+Generate listing file
+Output sent to: usart1_txrx.list
+Generate listing file done
+Generate build reports done
+
+12:18:43 Build Finished (took 419ms)
+
