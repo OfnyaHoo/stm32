@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="자원 &apos;SPL_uart_txrx&apos;을(를) &apos;SPL_uart_tx&apos;(으)로 이름 바꾸기" description="&apos;SPL_uart_txrx&apos; 자원 이름 바꾸기" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/SPL_uart_txrx" name="SPL_uart_tx" stamp="1560869309902" updateReferences="true"/>
+</session>
