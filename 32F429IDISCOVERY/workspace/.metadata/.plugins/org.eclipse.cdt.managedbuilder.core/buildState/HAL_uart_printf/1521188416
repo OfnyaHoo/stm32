@@ -1,0 +1,15 @@
+#
+#Sat Jun 29 15:17:24 GMT+09:00 2019
+Debug/Src/syscalls.o=1
+Debug/HAL_uart_printf=1
+startup/startup_stm32f429xx.s=1
+Src/main.c=1
+Src/syscalls.c=1
+Debug/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o=1
+HAL_uart_printf.elf=1
+Debug/HAL_uart_printf.elf=1
+Debug/Src/main.o=1
+Debug/Src/system_stm32f4xx.o=1
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c=1
+Src/system_stm32f4xx.c=1
+Debug/startup/startup_stm32f429xx.o=1
