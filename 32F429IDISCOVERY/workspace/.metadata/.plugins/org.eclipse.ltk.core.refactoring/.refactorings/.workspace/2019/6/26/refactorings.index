@@ -1,0 +1,12 @@
+1561635897004	'pg13_test' 자원을 삭제합니다.
+1561635901573	'gpio_switch_input' 자원을 삭제합니다.
+1561635905366	'STM32F429_439xx' 자원을 삭제합니다.
+1561635906885	'switch_scan' 자원을 삭제합니다.
+1561635907968	'tft-lcd BASIC' 자원을 삭제합니다.
+1561635908961	'usart1_txrx' 자원을 삭제합니다.
+1561635910078	'gpio_ppp_divide' 자원을 삭제합니다.
+1561635911138	'exti_switch' 자원을 삭제합니다.
+1561635912250	'dynamic_printf' 자원을 삭제합니다.
+1561637128322	'SPL_tiny_printf/src/syscalls.c' 자원을 삭제합니다.
+1561638294969	'SPL_uart_printf/src/tiny_printf.c' 자원을 삭제합니다.
+1561680793839	'gpio_direct' 자원 이름 바꾸기
