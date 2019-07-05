@@ -44,7 +44,6 @@
 
 /* Private variables ---------------------------------------------------------*/
 I2C_HandleTypeDef hi2c3;
-
 UART_HandleTypeDef huart1;
 
 /* USER CODE BEGIN PV */

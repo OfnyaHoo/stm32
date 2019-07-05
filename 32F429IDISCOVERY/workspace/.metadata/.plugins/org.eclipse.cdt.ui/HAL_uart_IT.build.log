@@ -1,0 +1,15 @@
+23:04:41 **** Incremental Build of configuration Debug for project HAL_uart_IT ****
+make -j4 all 
+"C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java" -jar "C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar" sizeinfo list HAL_uart_IT.elf
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+   5864	     20	   1888	   7772	   1e5c	HAL_uart_IT.elf
+Print size information done
+Generate listing file
+Output sent to: HAL_uart_IT.list
+Generate listing file done
+Generate build reports done
+
+23:04:42 Build Finished (took 591ms)
+

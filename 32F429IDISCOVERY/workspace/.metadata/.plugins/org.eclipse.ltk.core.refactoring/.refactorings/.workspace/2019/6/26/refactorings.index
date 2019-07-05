@@ -11,3 +11,4 @@
 1561638294969	'SPL_uart_printf/src/tiny_printf.c' 자원을 삭제합니다.
 1561680793839	'gpio_direct' 자원 이름 바꾸기
 1561789478301	'HAL_uart_printf/Src/tiny_printf.c' 자원을 삭제합니다.
+1561816821333	'EXAM_UART' 자원을 삭제합니다.

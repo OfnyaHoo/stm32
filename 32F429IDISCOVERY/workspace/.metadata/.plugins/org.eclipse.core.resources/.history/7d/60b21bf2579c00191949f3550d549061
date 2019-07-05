@@ -1,0 +1,39 @@
+/*
+ * gpio.c
+ *
+ *  Created on: 2019. 7. 2.
+ *      Author: user
+ */
+
+#include "gpio.h"
+#include "stm32f4xx_hal_gpio.h"
+
+void on_green_led(void)
+{
+	HAL_GPIO_WritePin(GPIOG, GPIO_PIN_13, GPIO_PIN_SET);
+}
+
+void off_green_led(void)
+{
+
+}
+
+void blink_green_led(void)
+{
+
+}
+
+void on_red_led(void)
+{
+
+}
+
+void off_red_led(void)
+{
+
+}
+
+void blink_red_led(void)
+{
+
+}

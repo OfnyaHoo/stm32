@@ -29,5 +29,17 @@
 		</list>
 	</section>
 	<section name="ImportExportAction">
+		<item value="org.eclipse.e4.ui.importer.wizard" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.equinox.p2.category"/>
+			<item value="org.eclipse.mylyn.tasks.ui.wizards.import.category"/>
+			<item value="org.eclipse.team.ui.importWizards"/>
+			<item value="org.eclipse.cdt.ui.importWizardCategory"/>
+			<item value="org.eclipse.team.cvs.ui.importWizards"/>
+			<item value="com.atollic.truestudio.common.wizards.importWizards.exampleProjectCategory"/>
+			<item value="org.eclipse.egit.ui.internal.clone.gitclonecategory"/>
+			<item value="org.eclipse.team.svn.ui.repository"/>
+		</list>
 	</section>
 </section>

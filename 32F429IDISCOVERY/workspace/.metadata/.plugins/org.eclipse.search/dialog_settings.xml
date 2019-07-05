@@ -24,9 +24,9 @@
 		<item value="org.eclipse.cdt.ui.pdomSearchPage" key="PREVIOUS_PAGE"/>
 	</section>
 	<section name="DialogBounds_SearchDialog">
-		<item value="787" key="DIALOG_WIDTH"/>
-		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
-		<item value="621" key="DIALOG_HEIGHT"/>
+		<item value="681" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="528" key="DIALOG_HEIGHT"/>
 		<item value="578" key="DIALOG_X_ORIGIN"/>
 		<item value="114" key="DIALOG_Y_ORIGIN"/>
 	</section>
