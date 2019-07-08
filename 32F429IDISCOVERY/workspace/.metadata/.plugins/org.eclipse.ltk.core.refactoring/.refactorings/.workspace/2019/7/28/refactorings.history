@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="&apos;BSP_gyro/Drivers/BSP&apos; 자원을 삭제합니다." deleteContents="false" description="&apos;BSP_gyro/Drivers/BSP&apos; 자원을 삭제합니다." element1="/BSP_gyro/Drivers/BSP" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1562589862599"/>&#x0A;<refactoring comment="&apos;BSP_gyro&apos; 자원을 삭제합니다." deleteContents="true" description="&apos;BSP_gyro&apos; 자원을 삭제합니다." element1="/BSP_gyro" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1562590193203"/>
+</session>

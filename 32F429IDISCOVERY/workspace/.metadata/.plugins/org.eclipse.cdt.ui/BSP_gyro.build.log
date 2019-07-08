@@ -1,0 +1,31 @@
+21:44:26 **** Incremental Build of configuration Debug for project BSP_gyro ****
+make -j4 all 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -MMD -MP -MF"Drivers/CMSIS/RTOS2/Template/cmsis_os1.d" -MT"Drivers/CMSIS/RTOS2/Template/cmsis_os1.o" -specs=nano.specs -o "Drivers/CMSIS/RTOS2/Template/cmsis_os1.o" "../Drivers/CMSIS/RTOS2/Template/cmsis_os1.c"
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -MMD -MP -MF"Drivers/CMSIS/RTOS2/Source/os_systick.d" -MT"Drivers/CMSIS/RTOS2/Source/os_systick.o" -specs=nano.specs -o "Drivers/CMSIS/RTOS2/Source/os_systick.o" "../Drivers/CMSIS/RTOS2/Source/os_systick.c"
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -MMD -MP -MF"Drivers/CMSIS/RTOS2/Source/os_tick_gtim.d" -MT"Drivers/CMSIS/RTOS2/Source/os_tick_gtim.o" -specs=nano.specs -o "Drivers/CMSIS/RTOS2/Source/os_tick_gtim.o" "../Drivers/CMSIS/RTOS2/Source/os_tick_gtim.c"
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -MMD -MP -MF"Drivers/CMSIS/RTOS2/Source/os_tick_ptim.d" -MT"Drivers/CMSIS/RTOS2/Source/os_tick_ptim.o" -specs=nano.specs -o "Drivers/CMSIS/RTOS2/Source/os_tick_ptim.o" "../Drivers/CMSIS/RTOS2/Source/os_tick_ptim.c"
+../Drivers/CMSIS/RTOS2/Source/os_tick_ptim.c:25:28: fatal error: RTE_Components.h: No such file or directory
+ #include "RTE_Components.h"
+                            ^
+../Drivers/CMSIS/RTOS2/Source/os_systick.c:25:21: fatal error: os_tick.h: No such file or directory
+ #include "os_tick.h"
+                     ^
+compilation terminated.
+compilation terminated.
+../Drivers/CMSIS/RTOS2/Source/os_tick_gtim.c:25:21: fatal error: os_tick.h: No such file or directory
+ #include "os_tick.h"
+                     ^
+compilation terminated.
+make: *** [Drivers/CMSIS/RTOS2/Source/subdir.mk:24: Drivers/CMSIS/RTOS2/Source/os_tick_gtim.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Drivers/CMSIS/RTOS2/Source/subdir.mk:24: Drivers/CMSIS/RTOS2/Source/os_systick.o] Error 1
+make: *** [Drivers/CMSIS/RTOS2/Source/subdir.mk:24: Drivers/CMSIS/RTOS2/Source/os_tick_ptim.o] Error 1
+In file included from ../Drivers/CMSIS/RTOS2/Template/cmsis_os1.c:28:0:
+../Drivers/CMSIS/RTOS2/Template/cmsis_os.h:157:23: fatal error: cmsis_os2.h: No such file or directory
+ #include "cmsis_os2.h"
+                       ^
+compilation terminated.
+make: *** [Drivers/CMSIS/RTOS2/Template/subdir.mk:18: Drivers/CMSIS/RTOS2/Template/cmsis_os1.o] Error 1
+
+21:44:28 Build Finished (took 2s.681ms)
+
