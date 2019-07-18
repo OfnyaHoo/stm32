@@ -116,9 +116,13 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 	  BSP_GYRO_GetXYZ(gyro_data);
+	  /*
 	  printf("x = %10.3f, y = %10.3f, z = %10.3f\r\n",
 			  gyro_data[0], gyro_data[1], gyro_data[2]);
-	  HAL_Delay(250);
+	  */
+	  // tx arduino
+	  printf("%10.3f %10.3f %10.3f \n",gyro_data[0],gyro_data[1],gyro_data[2]);
+	  HAL_Delay(50);
   }
   /* USER CODE END 3 */
 }

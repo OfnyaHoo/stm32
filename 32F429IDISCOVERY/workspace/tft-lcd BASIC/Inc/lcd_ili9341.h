@@ -52,7 +52,7 @@
 #define LCD_COLOR_RED            0xF800
 #define LCD_COLOR_MAGENTA        0xF81F
 #define LCD_COLOR_GREEN          0x07E0
-#define LCD_COLOR_CYAN          0x7FFF
+#define LCD_COLOR_CYAN           0x7FFF
 #define LCD_COLOR_YELLOW         0xFFE0
 
 void LCD_WriteCommand(uint8_t command);

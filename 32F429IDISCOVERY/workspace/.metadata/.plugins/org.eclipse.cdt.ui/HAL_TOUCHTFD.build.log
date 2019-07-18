@@ -1,0 +1,15 @@
+01:51:45 **** Incremental Build of configuration Debug for project HAL_TOUCHTFD ****
+make -j4 all 
+"C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java" -jar "C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar" sizeinfo list HAL_TOUCHTFD.elf
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  17448	    164	 155692	 173304	  2a4f8	HAL_TOUCHTFD.elf
+Print size information done
+Generate listing file
+Output sent to: HAL_TOUCHTFD.list
+Generate listing file done
+Generate build reports done
+
+01:51:45 Build Finished (took 600ms)
+

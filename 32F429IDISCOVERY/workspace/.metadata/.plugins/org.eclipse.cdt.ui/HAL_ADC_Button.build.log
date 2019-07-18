@@ -1,0 +1,15 @@
+00:16:08 **** Incremental Build of configuration Debug for project HAL_ADC_Button ****
+make -j4 all 
+"C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java" -jar "C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar" sizeinfo list HAL_ADC_Button.elf
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  10260	    120	   1720	  12100	   2f44	HAL_ADC_Button.elf
+Print size information done
+Generate listing file
+Output sent to: HAL_ADC_Button.list
+Generate listing file done
+Generate build reports done
+
+00:16:08 Build Finished (took 522ms)
+

@@ -1,0 +1,15 @@
+21:58:59 **** Incremental Build of configuration Debug for project HAL_SPI_MEMS ****
+make -j4 all 
+"C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java" -jar "C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar" sizeinfo list HAL_SPI_MEMS.elf
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  11580	    120	   1736	  13436	   347c	HAL_SPI_MEMS.elf
+Print size information done
+Generate listing file
+Output sent to: HAL_SPI_MEMS.list
+Generate listing file done
+Generate build reports done
+
+21:59:00 Build Finished (took 614ms)
+
