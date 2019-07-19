@@ -95,7 +95,6 @@ void FillRectangle(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t 
 
 	if(x1>x2) swap(x1, x2);
 	if(y1>y2) swap(y1, y2);
-
 	for(ypos=y1; ypos<=y2; ypos++) {
 		for(xpos=x1; xpos<=x2; xpos++) {
 			draw_pixel(xpos, ypos, color);

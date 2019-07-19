@@ -112,9 +112,9 @@ int main(void)
   MX_SPI5_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_2, GPIO_PIN_SET);
-	LCD_PowerOn();
-	HAL_LTDC_SetAddress(&hltdc, (uint32_t)frame_buffer, 0);
+  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_2, GPIO_PIN_SET);
+  LCD_PowerOn();
+  HAL_LTDC_SetAddress(&hltdc, (uint32_t)frame_buffer, 0);
   /* USER CODE END 2 */
 
   /* Infinite loop */
