@@ -1,6 +1,6 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:HAL_TFT_LTDC.elf,org.eclipse.launchbar.core.descriptorType.default\:HAL_TOUCHTFD.elf,org.eclipse.launchbar.core.descriptorType.default\:HAL_TFT_RAND.elf,org.eclipse.launchbar.core.descriptorType.default\:HAL_TFT_RAND Debug
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:HAL_TFT_LTDC.elf,org.eclipse.launchbar.core.descriptorType.default\:HAL_TOUCHTFD.elf,org.eclipse.launchbar.core.descriptorType.default\:HAL_TFT_RAND.elf,org.eclipse.launchbar.core.descriptorType.default\:HAL_TFT_RAND Debug,org.eclipse.launchbar.core.descriptorType.default\:HAL_LED_PWM.elf
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:HAL_TFT_RAND\ Debug/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:HAL_TFT_RAND\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
