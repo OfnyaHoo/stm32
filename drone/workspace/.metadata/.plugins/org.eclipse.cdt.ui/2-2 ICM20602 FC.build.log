@@ -1,0 +1,10 @@
+21:25:33 **** Incremental Build of configuration Debug for project 2-2 ICM20602 FC ****
+make -j4 all 
+arm-none-eabi-size   2-2\ ICM20602\ FC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19056	    120	   1880	  21056	   5240	2-2 ICM20602 FC.elf
+Finished building: default.size.stdout
+ 
+
+21:25:35 Build Finished. 0 errors, 0 warnings. (took 1s.317ms)
+

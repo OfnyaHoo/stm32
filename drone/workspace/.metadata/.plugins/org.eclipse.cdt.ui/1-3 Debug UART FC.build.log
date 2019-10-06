@@ -1,0 +1,10 @@
+13:27:14 **** Incremental Build of configuration Debug for project 1-3 Debug UART FC ****
+make -j4 all 
+arm-none-eabi-size   1-3\ Debug\ UART\ FC.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7732	     20	   1572	   9324	   246c	1-3 Debug UART FC.elf
+Finished building: default.size.stdout
+ 
+
+13:27:16 Build Finished. 0 errors, 0 warnings. (took 1s.39ms)
+

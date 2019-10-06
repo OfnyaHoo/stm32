@@ -1,0 +1,21 @@
+20:13:27 **** Incremental Build of configuration Debug for project 2-1 BNO080 FC ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32F405xx -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:85:8: warning: variable 'quatRadianAccuracy' set but not used [-Wunused-but-set-variable]
+  float quatRadianAccuracy;
+        ^~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "2-1 BNO080 FC.elf" @"objects.list"   -mcpu=cortex-m4 -T"F:\git\stm\drone\workspace\2-1 BNO080 FC\STM32F405RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="2-1 BNO080 FC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 2-1 BNO080 FC.elf
+ 
+arm-none-eabi-objdump -h -S  2-1\ BNO080\ FC.elf  > "2-1 BNO080 FC.list"
+arm-none-eabi-size   2-1\ BNO080\ FC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24512	    124	   1844	  26480	   6770	2-1 BNO080 FC.elf
+Finished building: default.size.stdout
+ 
+Finished building: 2-1 BNO080 FC.list
+ 
+
+20:13:29 Build Finished. 0 errors, 1 warnings. (took 2s.368ms)
+

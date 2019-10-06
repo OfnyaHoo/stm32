@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="F:\git\stm\drone\workspace\1-3 Debug UART FC"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="F:\git\stm\drone\workspace\3-1 MBN PC Interface"/>
+			<item value="F:\git\stm\drone\workspace\2-3 LPS22HH FC"/>
+			<item value="F:\git\stm\drone\workspace\2-2 ICM20602 FC"/>
+			<item value="F:\git\stm\drone\workspace\1-3 Debug UART FC Review"/>
+			<item value="F:\git\stm\drone\workspace\2-1 BNO080 FC"/>
+			<item value="F:\git\stm\drone\workspace\1-2 Debug Buzzer FC Review"/>
+			<item value="F:\git\stm\drone\workspace\1-3 Debug UART FC"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

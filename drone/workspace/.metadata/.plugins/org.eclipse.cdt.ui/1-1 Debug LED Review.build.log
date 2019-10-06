@@ -1,0 +1,10 @@
+08:41:03 **** Incremental Build of configuration Debug for project 1-1 Debug LED Review ****
+make -j4 all 
+arm-none-eabi-size   1-1\ Debug\ LED\ Review.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5968	     20	   1572	   7560	   1d88	1-1 Debug LED Review.elf
+Finished building: default.size.stdout
+ 
+
+08:41:04 Build Finished. 0 errors, 0 warnings. (took 1s.31ms)
+
